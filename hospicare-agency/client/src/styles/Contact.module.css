@@ -1,0 +1,103 @@
+.page {
+  padding: 50px 0 80px;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header p {
+  color: var(--text-muted);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+}
+
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.infoCard {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid var(--border-light);
+  padding: 18px;
+}
+
+.whatsappLink {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #25d366;
+  color: #ffffff;
+  padding: 12px 18px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.mapPlaceholder {
+  background: #e8f2f6;
+  border-radius: 16px;
+  height: 220px;
+  display: grid;
+  place-items: center;
+  color: var(--text-muted);
+  border: 1px dashed #c9dbe4;
+}
+
+.form {
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid var(--border-light);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.fieldGroup input,
+.fieldGroup select,
+.fieldGroup textarea {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border-light);
+  font-size: 0.95rem;
+}
+
+.fieldGroup span {
+  color: #dc2626;
+  font-size: 0.85rem;
+}
+
+.submitButton {
+  margin-top: 10px;
+  border: none;
+  background: var(--brand-blue);
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.success {
+  color: #15803d;
+  font-weight: 600;
+}
+
+.error {
+  color: #dc2626;
+  font-weight: 600;
+}

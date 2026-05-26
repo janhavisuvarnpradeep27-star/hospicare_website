@@ -1,0 +1,58 @@
+.page {
+  padding: 50px 0 80px;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header p {
+  color: var(--text-muted);
+}
+
+.grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid var(--border-light);
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.iconBox {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: rgba(15, 110, 155, 0.12);
+  color: var(--brand-blue);
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+}
+
+.card p {
+  color: var(--text-muted);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.tags span {
+  background: #eef6fb;
+  color: var(--brand-blue);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
