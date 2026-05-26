@@ -154,7 +154,7 @@ const Contact = () => {
             </div>
             <div className={styles.infoCard}>
               <h3>Email</h3>
-              <p>orders@medlinepharma.in</p>
+              <p>janhavik275@gmail.com</p>
             </div>
             <div className={styles.infoCard}>
               <h3>Business hours</h3>
@@ -162,7 +162,7 @@ const Contact = () => {
             </div>
             <a
               className={styles.whatsappLink}
-              href="https://wa.me/919823045678"
+              href="https://wa.me/917972661390"
               target="_blank"
               rel="noreferrer"
             >
